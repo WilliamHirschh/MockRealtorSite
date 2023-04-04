@@ -2,9 +2,12 @@
 
 html,body{
     margin:0;
-    height:100%;
+    height:120%;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(./images/landingpage.jpg);
+    background: rgb(0,0,0);
+    background-image: linear-gradient(to bottom, rgba(109,105,104,0), rgba(0,0,0,1)),
+    url('./images/house2.jpeg');
+    background-repeat: no-repeat;
   background-size: cover;
   
 }
@@ -20,14 +23,14 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 6px 15px;
     border-radius: 20px;
 }
 
 .navigation a:hover {
-    background: white;
-    color: black;
+    background: Black;
+    color: White;
 }
 
 
@@ -37,22 +40,37 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 #text {
     position: absolute;
-    font-size: 5rem;
+    letter-spacing: 30px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 6rem;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
 .paragraphs {
-    position: relative;
     background-color: black;
-    padding: 100px;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    
 }
 
-.paragraphs p {
+.AboutGrayStone {
+    color: White;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.AboutParagraph {
     color: white;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
