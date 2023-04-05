@@ -6,7 +6,7 @@ html,body{
     font-family: 'Josefin Sans', sans-serif;
     background: rgb(0,0,0);
     background-image: linear-gradient(to bottom, rgba(109,105,104,0), rgba(0,0,0,1)),
-    url('./images/house2.jpeg');
+    url('./images/house4.jpeg');
     background-repeat: no-repeat;
   background-size: cover;
   
@@ -21,16 +21,24 @@ header {
 
 }
 
+.headerbg{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
 .navigation a {
     text-decoration: none;
-    color: black;
+    font-size: 1.5rem;
+    color: White;
     padding: 6px 15px;
     border-radius: 20px;
 }
 
 .navigation a:hover {
-    background: Black;
-    color: White;
+    background: White;
+    color: Black;
 }
 
 
@@ -54,8 +62,7 @@ header {
 
 .paragraphs {
     background-color: black;
-    height: 100vh;
-    
+    height: 40vh;
     display: flex;
     justify-content: center;
     
@@ -74,3 +81,57 @@ header {
     margin-left: 100px;
 }
 
+.locationtext{
+    color: white;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper1 {
+    margin: 150px auto;
+    width: 70%;
+    background-color: black;
+}
+.house1img {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.text-box {
+    color: White
+}
+.text-box h1 {
+font-size: 42px;
+}
+.text-box p {
+    font-size: 20px;
+}
+
+.wrapper2 {
+    margin: 150px auto;
+    width: 70%;
+    background-color: black;
+}
+.house2img {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.wrapper3 {
+    margin: 150px auto;
+    width: 70%;
+    background-color: black;
+}
+.house3img {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
